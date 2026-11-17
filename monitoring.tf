@@ -15,3 +15,5 @@ resource "azurerm_monitor_action_group" "main" {
     email_address = var.alert_email
   }
 }
+
+
